@@ -18,7 +18,8 @@ import {
     QDrawer, QList, QItem, QItemSection, QItemLabel, QIcon, QSpace, QPageContainer,
     QCard, QCardSection, QSeparator,
     QTabs, QTab, QTabPanels, QTabPanel,
-    QForm, QInput, QBanner, QScrollArea, QDialog, QCardActions,
+    QForm, QInput, QBanner, QScrollArea, QDialog, QCardActions, QColor, QPopupProxy
+
 } from 'quasar'
 
 import BuilderParent from './components/BuilderParent.vue'
@@ -38,7 +39,8 @@ app.use(Quasar, {
         QDrawer, QList, QItem, QItemSection, QItemLabel, QIcon, QSpace, QPageContainer,
         QCard, QCardSection, QSeparator,
         QTabs, QTab, QTabPanels, QTabPanel,
-        QForm, QInput, QBanner, QScrollArea, QDialog, QCardActions,
+        QForm, QInput, QBanner, QScrollArea, QDialog, QCardActions, QColor, QPopupProxy
+
     },
     directives: {
         Ripple,

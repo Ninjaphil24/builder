@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import { ref } from 'vue'
+    import ColorPicker from './ColorPicker.vue'
 
     const drawer = ref(false)
 </script>
@@ -18,7 +19,7 @@
                     <q-list>
                         <q-item clickable v-ripple>
                             <q-item-section>
-                                <q-item-label>Dummy Action</q-item-label>
+                                <ColorPicker />
                             </q-item-section>
                         </q-item>
                     </q-list>
